@@ -1,8 +1,6 @@
 package menu;
 
 
-import java.util.Iterator;
-
 public class Menu extends MenuComponent {
 	
 	public Menu(String name, String url) {

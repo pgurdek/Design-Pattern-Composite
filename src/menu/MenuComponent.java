@@ -10,6 +10,13 @@ public abstract class MenuComponent {
 	String url;
 	List<MenuComponent> menuComponents = new ArrayList<>();
 
+	public MenuComponent add(MenuComponent menuComponent) {
+		throw new UnsupportedOperationException("Feature not implemented at this level");
+	}
+
+	public MenuComponent remove(MenuComponent menuComponent) {
+		throw new UnsupportedOperationException("Feature not implemented at this level");
+	}
 
 	public String getName() {
 		return name;

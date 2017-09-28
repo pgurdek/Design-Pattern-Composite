@@ -9,6 +9,6 @@ public class MenuItem extends MenuComponent {
 
 	@Override
 	public String toString() {
-		return null;
+		return print(this);
 	}
 }
